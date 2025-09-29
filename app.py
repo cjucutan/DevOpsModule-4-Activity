@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import socket
 
-app = Flash(__name__)
+app = Flask(__name__)
 
 def get_container_ip():
     try:
